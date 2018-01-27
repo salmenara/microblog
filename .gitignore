@@ -1,3 +1,5 @@
 venv
 flask-env
 __pycache__
+*.pyc
+*.pyproj
