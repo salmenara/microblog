@@ -22,3 +22,7 @@ def index():
 def login():
     form = LoginForm()
     return render_template('login.html', title = 'Sign in', form = form)
+    
+@app.route('/hello')
+def hola():
+    return "<p>Hola mundo!</p>"
